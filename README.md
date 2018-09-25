@@ -1,3 +1,5 @@
+# Women Safety App 
+
 Suraksha is the prototype of an Android app which was developed with an intention of keeping women in the society safe and secure
 The main intention behind adding the features in this app was the fact that when so ever a woman is in trouble there is hardly any time/room for her to reach out to her phone and give a distress call to someone she trusts
 The flow of the application is as follows:-
