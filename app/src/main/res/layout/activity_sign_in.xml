@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginEmail"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:background="@drawable/bordershape"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginPass"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/bordershape"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/patientlogin"
+        android:text="Login"
+        android:background="@drawable/bordershape"
+        android:backgroundTint="#FF303F9F"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="New to this ? then Sign Up"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupbt"
+        android:text="sign up"
+        android:background="@drawable/bordershape"
+        android:backgroundTint="#FF303F9F"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/Login_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</LinearLayout>

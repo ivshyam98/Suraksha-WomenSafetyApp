@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="15px"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Title: "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Posted by: "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Date:"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Category: "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Event Description: "
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"/>
+
+
+</LinearLayout>
