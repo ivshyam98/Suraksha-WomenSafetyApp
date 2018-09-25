@@ -1,0 +1,42 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "suraksha",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "unsafe",
+                    "slots": [],
+                    "samples": [
+                        "I'm feelling unwell",
+                        "I am feeling unwell",
+                        "I am feeling unsafe",
+                        "help me please",
+                        "please help me",
+                        "I'm feeling unsafe"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
